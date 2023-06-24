@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link
+       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+       rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="search-box">
+      <form class="" action="/" method="post">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" name="cityName" value="" placeholder="Enter Your Location">
+        <button class="fa solid fa-magnifying-glass" type="submit" name="button"></button>
+
+      </form>
+
+
+      </div>
+      <div class="information-class">
+
+<div class="nav">
+    <img src =<%=weatherimage%> alt="">
+</div>
+<h1 class="temp-class"><%=tempofweather%></h1>
+<h1 class="city-name"><%=cityheading%></h1>
+
+
+
+
+
+
+<div class="">
+  <h4 class="humi-class">Humidity:</h4>
+  <h2 class="humi-value"><%=humidityweather%>%</h2>
+</div>
+
+<div class="speed">
+  <h4 class="speed-class">Wind-Speed:<h4>
+    <h2 class="speed-value"><%=speedofwind%>/h</h2>
+</div>
+          <!-- <h3 class="desc-class"> <%=descriptionofweather%></h3> -->
+
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+  </body>
+</html>
